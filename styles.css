@@ -97,6 +97,7 @@ transform: rotate(-0deg);
 /* Quiz */
 
 .quiz{
-  background-color:  #fff5d7;
+  background-color:  #ffaaab;
   font-family: 'Montserrat Alternates';
+  padding: 7% 15%;
 }
