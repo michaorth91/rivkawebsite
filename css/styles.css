@@ -10,6 +10,14 @@ h1{
   line-height: 1.5;
 }
 
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+text-align: center;
+    padding-top: 5%;
+}
+
 /* NAvigation-Bar */
 
 .navbar{
@@ -27,6 +35,10 @@ h1{
 
 /* Starting Page */
 
+.button-quiz{
+
+}
+
 .startingpage{
   background-color:#ffaaab;
   padding: 7% 15%;
@@ -34,6 +46,7 @@ h1{
 
 .mountainimage {
 transform: rotate(-0deg);
+padding-top: 10px;
 }
 
 .takethequiz{
@@ -88,11 +101,26 @@ transform: rotate(-0deg);
 /* previus dates */
 
 #testimonials{
-  padding: 7% 15%;
+padding-bottom: 10rem;
 }
-/* Quiz */
 
-.quiz{
+.carousel-item{
+  padding: 11% 15%;
+}
+
+
+.carousel-caption {
+      max-width: 550px;
+      padding: 0 40px;
+      margin:0 auto;
+      margin-top: 500px;
+      text-align:center;
+      color: black;
+      font-family: 'Ubuntu';
+}
+/* Date Options */
+
+.date-options{
   background-color:  #ffaaab;
   font-family: 'Montserrat Alternates';
   padding: 7% 15%;
@@ -102,3 +130,14 @@ transform: rotate(-0deg);
       padding-bottom: 40px;
       color: #FFFFFF;
   }
+
+  .card-header{
+    text-align: center;
+  }
+
+.card-body{
+  text-align: center;
+}
+.date-options-column{
+  padding: 3% 2%;
+}
