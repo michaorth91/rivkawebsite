@@ -27,29 +27,29 @@
 <body>
 
   <!-- Navbar -->
-  <div class="container-flud">
+  <div class="container-fluid beige-section">
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-light ">
       <a class="navbar-brand" href=""><i class="far fa-kiss-wink-heart"></i> Superdates</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" >
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="startingpage">Starting Page<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#startingpage">Starting Page<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="nextdate">Date#2</a>
+            <a class="nav-link" href="#date-options">Date#2</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               PreviousDates
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Date #1</a>
-              <a class="dropdown-item" href="#">Date #2</a>
+              <a class="dropdown-item" href="#previousdates">Date #1</a>
+              <a class="dropdown-item" href="#previousdates">Date #2</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Coming up...</a>
             </div>
@@ -60,10 +60,11 @@
         </ul>
 
       </div>
+      </div>
     </nav>
 
     <!-- Starting Page -->
-    <div class="startingpage">
+    <div class="startingpage pink-section">
       <div class="row">
         <div class="col-md-6 col-sm-12 startingpagetext">
           <div class="startingpage-text">
@@ -84,17 +85,17 @@
         </div>
         <div class="col md-6 sm-12">
           <div class=" mountainimage">
-            <img src="css/img/coloradomountains.jpg" class="img-fluid" alt="colorado.com">
+            <img src="css/img/coloradomountains.jpg" class="img-fluid rounded-circle" alt="colorado.com">
           </div>
         </div>
 
       </div>
     </div>
-  </div>
+
 
   <!-- Check-Items -->
 
-  <div class="check-items">
+  <div class="check-items beige-section">
 
     <div class="checkitem-text">
       Dates with Micha are...
@@ -142,19 +143,11 @@
 
 
   <!-- Next Date -->
-  <div class="nextdate" id="nextdate">
+  <div class="nextdate pink-section" id="nextdate">
     <div class="row">
-      <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="col-lg-6 col-md-12 col-sm-12 heading-nextdate">
 
         <h1>Deine nächste Datesperience</h1>
-
-        <br>
-        <br>
-
-        <h2>Schaue dir jetzt das Video an ->
-        </h2>
-
-
       </div>
 
       <div class="col-lg-6 col-md-12 col-sm-12">
@@ -167,9 +160,9 @@
   </div>
 
   <!-- Previous Dates -->
-  <section id="previousdates">
+  <section class="beige-section" id="previousdates">
 
-    <h2>Take a trip down memory lane with some previous dates :)</h2>
+    <h3 class="previousdates-text">Take a trip down memory lane with some previous dates :)</h3>
 
     <div id="Previusdatesimg" class="carousel slide"  data-pause="hover" data-interval="4000" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -209,38 +202,34 @@
     </div>
 
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
   </section>
+
+
   <!-- Date Options-->
 
-  <div class="date-options" id="date-options">
+  <div class="date-options pink-section" id="date-options">
 <div class="row">
 <div class="date-options-column col-lg-4">
   <div class="card">
   <div class="card-header">
-      Date Option 1
+      Option 1
   </div>
   <div class="card-body">
-      hallo
+    Fun, Flames, Flavours
   </div>
 
-  <button class="btn-outline-dark">
-    Choose Option 1
-  </button>
+<button type="submit" onclick="location.href = 'https://www.feuer-flamme-berlin.de/kerzen-selber-machen/';">Choose Option 1</button>
   </div>
 </div>
 
 <div class="date-options-column col-lg-4">
 <div class="card">
   <div class="card-header">
-    Date Option 2
+  Option 2
   </div>
 
   <div class="card-body">
-      hallo
+    Munchy Msteries
   </div>
   <button class="btn-primary btn-dark">
     Choose Option 2
@@ -253,11 +242,11 @@
 <div class="date-options-column col-lg-4">
   <div class="card">
     <div class="card-header">
-        Date Option 3
+    Option 3
     </div>
 
     <div class="card-body">
-        hallo
+        Valued Vagueness
     </div>
     <button class="btn-primary btn-dark">
       Choose Option 3
@@ -278,7 +267,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 <!-- Footer -->
-<footer class="page-footer font-small teal pt-4">
+<footer class="page-footer font-small teal pt-4 beige-section">
 
   <!-- Footer Text -->
   <div class="container-fluid text-center text-md-left">

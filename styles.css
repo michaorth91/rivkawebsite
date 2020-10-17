@@ -1,23 +1,36 @@
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff5d7;
   font-family: "Montserrat";
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
 
-h1{
-  font-family: 'Ubuntu', sans-serif;
+
+
+/* Headings */
+
+.heading-nextdate{
   font-size: 2.5rem;
   line-height: 1.5;
 }
 
-h2{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.5rem;
-    line-height: 1.5;
-text-align: center;
-    padding-top: 5%;
+/* Sections */
+
+.pink-section{
+  background-color:#ffaaab;
+  color: white;
+
 }
 
+.beige-section{
+  background-color: #fff5d7;
+}
 /* NAvigation-Bar */
 
 .navbar{
@@ -35,18 +48,23 @@ text-align: center;
 
 /* Starting Page */
 
-.button-quiz{
-
-}
-
 .startingpage{
-  background-color:#ffaaab;
+
   padding: 7% 15%;
 }
 
 .mountainimage {
-transform: rotate(-0deg);
+  width: 100%;
 padding-top: 10px;
+position: absolute;
+}
+
+@media (max-width: 1080px) {
+  .mountainimage {
+    width: 100%;
+  padding-top: 10px;
+  position: static;
+  }
 }
 
 .takethequiz{
@@ -65,45 +83,59 @@ padding-top: 10px;
 
 /* Check-items */
 
+
+.check-items{
+
+  padding: 7% 15%;
+  position:relative;
+  z-index: 1;
+}
 .checkitem-text{
   font-family: 'Montserrat Alternates';
   padding-bottom: 5%;
 }
 
-.check-items{
-  background-color: #fff5d7;
-  padding: 7% 15%;
-}
-
-.fas {
-  color: #ff5e6c;
-
-}
-.fas:hover{
-  color: #BF0000;
-}
 .far {
   color: #ff5e6c;
+}
+
+.fas{
+    color: #ff5e6c;
+}
+.fas:hover {
+color: #BF0000;
 }
 
 .far:hover {
   color: #BF0000;
 }
 
+
 /* Next Date */
 
 .nextdate{
   padding: 7% 15%;
-  background-color: #ffaaab;
+
 
 }
 
 /* previus dates */
 
-#testimonials{
-padding-bottom: 10rem;
+.previousdates-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 5rem;
 }
 
+@media (max-width: 1000px){
+  .previousdates-text{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 5rem;
+  }
+}
 .carousel-item{
   padding: 11% 15%;
 }
@@ -114,29 +146,29 @@ padding-bottom: 10rem;
       padding: 0 40px;
       margin:0 auto;
       margin-top: 500px;
+      font-size: 2rem;
       text-align:center;
       color: black;
-      font-family: 'Ubuntu';
+
 }
+
+
+
 /* Date Options */
 
 .date-options{
-  background-color:  #ffaaab;
-  font-family: 'Montserrat Alternates';
+font-family: 'Ubuntu', sans-serif;
   padding: 7% 15%;
 }
 
-.quiztext{
-      padding-bottom: 40px;
-      color: #FFFFFF;
-  }
-
   .card-header{
-    text-align: center;
+    color: black;
+  text-align: center;
   }
 
 .card-body{
-  text-align: center;
+  color: black;
+    text-align: center;
 }
 .date-options-column{
   padding: 3% 2%;
